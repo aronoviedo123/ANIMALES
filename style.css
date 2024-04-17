@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    padding: 1.25em;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+
+.tittle {
+    padding-top: 200px;
+    margin-left: 300px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.tuno {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tdos {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ttres {
+    font-size: 15px;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 1, 1, 0)), url(top.jpeg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 12.5em;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 1, 1, 1)), url(fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans, serif;
+    font-size: 1rem;
+}
+
+.menu {
+    float: right;
+    position: relative;
+}
+
+.cuadrouno {
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+}
+
+.cuadrodos {
+    background-color: rgb(78, 110, 82);
+    text-align: center;
+}
+
+.c_uno {
+    padding-top: 50px;
+    font-size: 30px;
+    stroke: black;
+}
+
+.c_dos {
+    padding-top: 70px;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+.d_uno {
+    padding-top: 50px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: bold;
+}
+
+.d_dos {
+    color: white;
+
+    padding-top: 70px;
+    font-size: 20px;
+    padding-bottom: 80px;
+}
+
+
+
+.enlaces {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.form1 {
+    background-color: rgb(255, 153, 0);
+    width: 450px;
+    height: 40px;
+    color: rgb(224, 213, 213);
+    font-size: 22px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+
+.form2 {
+    background-color: rgb(253, 173, 0);
+    width: 500px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    text-align: center;
+}
+
+.form3 {
+    background-color: rgb(224, 224, 224);
+    width: 350px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+}
+
+.form4 {
+    background-color: rgb(224, 224, 224);
+    width: 380px;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+
+.footer-content {
+    background-size: cover;
+    padding-top: 3.125em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content div {
+    color: aliceblue;
+    padding: 1.875em;
+}
+
+.footer-content h3 {
+    padding-left: 0.9375em;
+}
+
+.footer-content p {
+    padding-top: 1.875em;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 9px;
+    }
+
+    .contenedor {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+    }
+}
+
+.logos {
+
+    display: flex;
+    justify-content: end;
+
+}
+
+.gg-facebook {
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px
+}
+
+.gg-facebook::after,
+.gg-facebook::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box
+}
+
+.gg-facebook::before {
+    width: 8px;
+    height: 20px;
+    border-left: 4px solid;
+    border-top: 4px solid;
+    border-top-left-radius: 5px;
+    left: 6px
+}
+
+.gg-facebook::after {
+    width: 10px;
+    height: 4px;
+    background: currentColor;
+    top: 7px;
+    left: 4px;
+    transform: skew(-5deg)
+}
+
+.gg-instagram {
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    border: 2px solid transparent;
+    box-shadow: 0 0 0 2px;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px
+}
+
+.gg-instagram::after,
+.gg-instagram::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute
+}
+
+.gg-instagram::after {
+    border: 2px solid;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    top: 3px
+}
+
+.gg-instagram::before {
+    border-radius: 3px;
+    width: 2px;
+    height: 2px;
+    background: currentColor;
+    right: 1px;
+    top: 1px
+}
+
+.gg-twitter {
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 20px;
+    height: 20px
+}
+
+.gg-twitter::after,
+.gg-twitter::before {
+    content: "";
+    display: block;
+    position: absolute;
+    box-sizing: border-box;
+    left: 4px
+}
+
+.gg-twitter::before {
+    width: 9px;
+    height: 14px;
+    border-left: 4px solid;
+    border-bottom: 4px solid;
+    border-bottom-left-radius: 6px;
+    background:
+        linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center 2px/10px 4px;
+    top: 4px
+}
+
+.gg-twitter::after {
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 20px;
+    top: 2px;
+    box-shadow: 7px 4px 0, 7px 12px 0
+}
